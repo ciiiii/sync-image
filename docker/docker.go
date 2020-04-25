@@ -59,23 +59,31 @@ func (c *Client) Login() error {
 	return err
 }
 
-func (c *Client) Pull(image string) error {
+func (c *Client) Pull(image string, verbose bool) error {
 	o, err := c.ImagePull(c.C, image, types.ImagePullOptions{})
 	if err != nil {
 		return err
 	}
 	defer o.Close()
-	io.Copy(os.Stdout, o)
+	if verbose {
+		io.Copy(os.Stdout, o)
+	} else {
+		io.Copy(os.NewFile(0, os.DevNull), o)
+	}
 	return nil
 }
 
-func (c *Client) Push(image string) error {
+func (c *Client) Push(image string, verbose bool) error {
 	o, err := c.ImagePush(c.C, image, types.ImagePushOptions{RegistryAuth: c.AuthStr})
 	if err != nil {
 		return err
 	}
 	defer o.Close()
-	io.Copy(os.Stdout, o)
+	if verbose {
+		io.Copy(os.Stdout, o)
+	} else {
+		io.Copy(os.NewFile(0, os.DevNull), o)
+	}
 	return nil
 }
 

@@ -1,4 +1,4 @@
-# sync-image
+# sync-image ![](https://travis-ci.com/ciiiii/sync-image.svg?branch=master)
 
 1. only support docker.io、gcr.io、quay.io.
 2. k8s.gcr.io should convert to gcr.io/google-containers format

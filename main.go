@@ -111,9 +111,10 @@ func main() {
 			continue
 		}
 		if exist {
-			fmt.Println(":exist")
+			fmt.Println("->exist")
 			continue
 		}
+		fmt.Println("->not exist")
 
 		fmt.Println(":pull")
 		if err := dockerClient.Pull(image.Full, false); err != nil {
