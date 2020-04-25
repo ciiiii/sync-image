@@ -60,7 +60,7 @@ type RegistryMap struct {
 
 func (r RegistryMap) Iter() []ImageInfo {
 	var imageList []ImageInfo
-	for _, image := range r.Docker.Iter("quay") {
+	for _, image := range r.Docker.Iter("docker") {
 		imageList = append(imageList, image)
 	}
 	for _, image := range r.Gcr.Iter("gcr") {
@@ -104,9 +104,11 @@ func main() {
 	for _, image := range registryMap.Iter() {
 		fmt.Printf("[image]%s\n", image.Full)
 		mirrorImage := image.Rename()
+		fmt.Println(":check")
 		exist, err := dockerClient.Exist(mirrorImage)
 		if err != nil {
 			fmt.Println(err)
+			continue
 		}
 		if exist {
 			fmt.Println(":exist")
@@ -114,17 +116,19 @@ func main() {
 		}
 
 		fmt.Println(":pull")
-		if err := dockerClient.Pull(image.Full); err != nil {
+		if err := dockerClient.Pull(image.Full, false); err != nil {
 			fmt.Println(err)
+			continue
 		}
 
 		fmt.Println(":tag")
 		if err := dockerClient.Tag(image.Full, mirrorImage); err != nil {
 			fmt.Println(err)
+			continue
 		}
 
 		fmt.Println(":push")
-		if err := dockerClient.Push(mirrorImage); err != nil {
+		if err := dockerClient.Push(mirrorImage, false); err != nil {
 			fmt.Println(err)
 		}
 	}
