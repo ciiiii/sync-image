@@ -108,6 +108,7 @@ func main() {
 		exist, err := dockerClient.Exist(mirrorImage)
 		if err != nil {
 			fmt.Println(err)
+			fmt.Println("->error")
 			continue
 		}
 		if exist {
