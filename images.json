@@ -21,6 +21,9 @@
       },
       "external_storage": {
         "local-volume-provisioner": ["v2.3.2"]
+      },
+      "bitnami": {
+        "sealed-secrets-controller": ["v0.12.2"]
       }
   },
   "gcr.io":{
