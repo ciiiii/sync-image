@@ -17,13 +17,25 @@
   },
   "quay.io": {
       "coreos": {
-        "etcd": ["v3.3.12"]
+        "etcd": ["v3.3.12"],
+        "kube-state-metrics": ["v1.9.5"],
+        "kube-rbac-proxy": ["v0.4.1"],
+        "k8s-prometheus-adapter-amd64": ["v0.7.0"],
+        "prometheus-operator": ["v0.39.0"]
       },
       "external_storage": {
         "local-volume-provisioner": ["v2.3.2"]
       },
       "bitnami": {
         "sealed-secrets-controller": ["v0.12.2"]
+      },
+      "prometheus": {
+        "prometheus": ["v2.17.2"],
+        "alermanager": ["v0.20.0"],
+        "node-exporter": ["v0.18.1"]
+      },
+      "granfana": {
+        "granfana": ["6.6.0"]
       }
   },
   "gcr.io":{
