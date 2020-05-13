@@ -46,6 +46,9 @@
       },
       "dexidp": {
         "dex": ["v2.22.0"]
+      },
+      "kubernetes-ingress-controller": {
+        "nginx-ingress-controller": ["0.32.0"]
       }
   },
   "gcr.io":{
@@ -57,7 +60,8 @@
       "pause": ["3.1"],
       "k8s-dns-node-cache": ["1.15.10"],
       "cluster-proportional-autoscaler-amd64": ["1.6.0"],
-      "kubernetes-dashboard-amd64": ["v1.10.1"]
+      "kubernetes-dashboard-amd64": ["v1.10.1"],
+      "defaultbackend-amd64": ["1.5"]
     }
   }
 }
