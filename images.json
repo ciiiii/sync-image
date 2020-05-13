@@ -31,11 +31,11 @@
       },
       "prometheus": {
         "prometheus": ["v2.17.2"],
-        "alermanager": ["v0.20.0"],
+        "alertmanager": ["v0.20.0"],
         "node-exporter": ["v0.18.1"]
       },
-      "granfana": {
-        "granfana": ["6.6.0"]
+      "grafana": {
+        "grafana": ["6.6.0"]
       }
   },
   "gcr.io":{
