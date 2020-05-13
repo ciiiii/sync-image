@@ -17,7 +17,6 @@ var (
 it should be used with the synchronous mirroring feature of this project together.
 Complete docs is available at https://github.com/ciiiii/sync-image.`,
 		Run: func(cmd *cobra.Command, args []string) {
-			fmt.Println()
 			converter := convert.Converter{
 				Source: source,
 				Target: target,

@@ -7,6 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
+	"fmt"
+
 	"github.com/ciiiii/sync-image/sync"
 	"github.com/hashicorp/go-getter"
 )
@@ -38,6 +40,13 @@ func (c *Converter) StringMapper() []string {
 	var s []string
 	for _, i := range c.RegistryMap.Iter() {
 		s = append(s, i.Full, i.Rename())
+		if i.Source == "docker.io" {
+			if i.Registry == "library" {
+				s = append(s, i.Image, i.Rename())
+			} else {
+				s = append(s, fmt.Sprintf("%s/%s", i.Registry, i.Image), i.Rename())
+			}
+		}
 	}
 	return s
 }
