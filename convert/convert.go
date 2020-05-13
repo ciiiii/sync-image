@@ -42,9 +42,9 @@ func (c *Converter) StringMapper() []string {
 		s = append(s, i.Full, i.Rename())
 		if i.Source == "docker.io" {
 			if i.Registry == "library" {
-				s = append(s, i.Image, i.Rename())
+				s = append(s, fmt.Sprintf("%s:%s", i.Image, i.Tag), i.Rename())
 			} else {
-				s = append(s, fmt.Sprintf("%s/%s", i.Registry, i.Image), i.Rename())
+				s = append(s, fmt.Sprintf("%s/%s:%s", i.Registry, i.Image, i.Tag), i.Rename())
 			}
 		}
 	}
