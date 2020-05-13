@@ -13,6 +13,9 @@
     },
     "rancher": {
       "local-path-provisioner": ["v0.0.2"]
+    },
+    "grafana": {
+      "grafana": ["6.6.0"]
     }
   },
   "quay.io": {
@@ -33,9 +36,6 @@
         "prometheus": ["v2.17.2"],
         "alertmanager": ["v0.20.0"],
         "node-exporter": ["v0.18.1"]
-      },
-      "grafana": {
-        "grafana": ["6.6.0"]
       }
   },
   "gcr.io":{
