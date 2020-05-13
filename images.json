@@ -23,6 +23,9 @@
     },
     "argoproj": {
       "argocd": ["v1.5.3"]
+    },
+    "kennethreitz": {
+      "httpbin": ["latest"]
     }
   },
   "quay.io": {
