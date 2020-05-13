@@ -16,6 +16,9 @@
     },
     "grafana": {
       "grafana": ["6.6.0"]
+    },
+    "jimmidyson": {
+      "configmap-reload": ["v0.3.0"]
     }
   },
   "quay.io": {
