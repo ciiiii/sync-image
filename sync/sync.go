@@ -72,6 +72,10 @@ func (r RegistryMap) Iter() []ImageInfo {
 	return imageList
 }
 
+func (r RegistryMap) Len() int {
+	return len(r.Docker) + len(r.Gcr) + len(r.Quay)
+}
+
 type ImageInfo struct {
 	Full      string
 	Source    string
