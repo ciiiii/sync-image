@@ -1,7 +1,8 @@
 {
   "docker.io": {
     "library": {
-      "nginx": ["1.17"]
+      "nginx": ["1.17"],
+      "redis": ["5.0.3"]
     },
     "calico": {
       "node": ["v3.13.2"],
@@ -19,6 +20,9 @@
     },
     "jimmidyson": {
       "configmap-reload": ["v0.3.0"]
+    },
+    "argoproj": {
+      "argocd": ["v1.5.3"]
     }
   },
   "quay.io": {
@@ -39,6 +43,9 @@
         "prometheus": ["v2.17.2"],
         "alertmanager": ["v0.20.0"],
         "node-exporter": ["v0.18.1"]
+      },
+      "dexidp": {
+        "dex": ["v2.22.0"]
       }
   },
   "gcr.io":{
