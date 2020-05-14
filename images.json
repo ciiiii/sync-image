@@ -4,6 +4,9 @@
       "nginx": ["1.17"],
       "redis": ["5.0.3"]
     },
+    "bitnami": {
+      "metrics-server": ["0.3.7-debian-10-r5"]
+    },
     "calico": {
       "node": ["v3.13.2"],
       "cni": ["v3.13.2"],
