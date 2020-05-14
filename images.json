@@ -29,6 +29,11 @@
     }
   },
   "quay.io": {
+      "jetstack": {
+        "cert-manager-controller": ["v0.15.0"],
+        "cert-manager-cainjector": ["v0.15.0"],
+        "cert-manager-webhook": ["v0.15.0"]
+      },
       "coreos": {
         "etcd": ["v3.3.12"],
         "kube-state-metrics": ["v1.9.5"],
