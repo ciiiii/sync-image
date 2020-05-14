@@ -2,7 +2,20 @@
   "docker.io": {
     "library": {
       "nginx": ["1.17"],
-      "redis": ["5.0.3"]
+      "redis": ["5.0.3"],
+      "busybox": ["1.31.1"]
+    },
+    "kiwigrid": {
+      "k8s-sidecar": ["0.1.99"]
+    },
+    "curlimages": {
+      "curl": ["7.68.0"]
+    },
+    "squareup": {
+      "ghostunnel": ["v1.5.2"]
+    },
+    "jettech": {
+      "kube-webhook-certgen": ["v1.2.0"]
     },
     "bitnami": {
       "metrics-server": ["0.3.7-debian-10-r5"]
@@ -19,7 +32,7 @@
       "local-path-provisioner": ["v0.0.2"]
     },
     "grafana": {
-      "grafana": ["6.6.0"]
+      "grafana": ["6.6.0", "6.7.3"]
     },
     "jimmidyson": {
       "configmap-reload": ["v0.3.0"]
@@ -42,7 +55,9 @@
         "kube-state-metrics": ["v1.9.5"],
         "kube-rbac-proxy": ["v0.4.1"],
         "k8s-prometheus-adapter-amd64": ["v0.7.0"],
-        "prometheus-operator": ["v0.39.0"]
+        "prometheus-operator": ["v0.38.1", "v0.39.0"],
+        "configmap-reload": ["v0.0.1"],
+        "prometheus-config-reloader": ["v0.38.1"]
       },
       "external_storage": {
         "local-volume-provisioner": ["v2.3.2"]
@@ -72,7 +87,8 @@
       "k8s-dns-node-cache": ["1.15.10"],
       "cluster-proportional-autoscaler-amd64": ["1.6.0"],
       "kubernetes-dashboard-amd64": ["v1.10.1"],
-      "defaultbackend-amd64": ["1.5"]
+      "defaultbackend-amd64": ["1.5"],
+      "hyperkube": ["v1.12.1"]
     }
   }
 }
