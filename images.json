@@ -65,7 +65,8 @@
         "prometheus-config-reloader": ["v0.38.1"]
       },
       "external_storage": {
-        "local-volume-provisioner": ["v2.3.2"]
+        "local-volume-provisioner": ["v2.3.2"],
+        "nfs-client-provisioner": ["v3.1.0-k8s1.11"]
       },
       "bitnami": {
         "sealed-secrets-controller": ["v0.12.2"]
