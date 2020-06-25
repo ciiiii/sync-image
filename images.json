@@ -3,6 +3,7 @@
     "library": {
       "nginx": ["1.17"],
       "redis": ["5.0.3"],
+      "postgres": ["10"],
       "busybox": ["1.31.1"],
       "golang": ["1.13-alpine", "1.14.4"],
       "sentry": ["9.1.2"]
