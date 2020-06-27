@@ -52,7 +52,7 @@
       "httpbin": ["latest"]
     },
     "killercai": {
-      "kube-apiserver": ["debug-fa010b26ccc8cd5eabafb77a612de2f92461a46a"]
+      "kube-apiserver": ["debug-fa010b26ccc8cd5eabafb77a612de2f92461a46a", "debug-1811d42099dbdc59c637b406d5ae2b76d739909a"]
     }
   },
   "quay.io": {
