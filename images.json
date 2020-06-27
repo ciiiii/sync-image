@@ -51,10 +51,8 @@
     "kennethreitz": {
       "httpbin": ["latest"]
     },
-    {
     "killercai": {
       "kube-apiserver": ["debug-fa010b26ccc8cd5eabafb77a612de2f92461a46a"]
-    }
     }
   },
   "quay.io": {
