@@ -52,7 +52,7 @@
       "httpbin": ["latest"]
     },
     "killercai": {
-      "kube-apiserver": ["debug-fa010b26ccc8cd5eabafb77a612de2f92461a46a", "debug-1811d42099dbdc59c637b406d5ae2b76d739909a", "debug-c36c221baf7aa640751c8e093b1d71df27e86e73", "debug-8350f8ff1dffa511c6c6e5481bb0357193cbb333", "debug-b04376e3994e64789331281344900f955f937b19", "debug-65bd2810476bb0d4c2db4b5e37b17dabbc74f1f1", "debug-0ad5b8e14df5b379de944c4e8abbba9cfc2173d4", "debug-6c37d5dc8448d901ee66dc81a3906a6ce8c67c37", "debug-29fc27c584bf4ab7ad18f9aadccdee759578c7f7"]
+      "kube-apiserver": ["debug-fa010b26ccc8cd5eabafb77a612de2f92461a46a", "debug-1811d42099dbdc59c637b406d5ae2b76d739909a", "debug-c36c221baf7aa640751c8e093b1d71df27e86e73", "debug-8350f8ff1dffa511c6c6e5481bb0357193cbb333", "debug-b04376e3994e64789331281344900f955f937b19", "debug-65bd2810476bb0d4c2db4b5e37b17dabbc74f1f1", "debug-0ad5b8e14df5b379de944c4e8abbba9cfc2173d4", "debug-6c37d5dc8448d901ee66dc81a3906a6ce8c67c37", "debug-29fc27c584bf4ab7ad18f9aadccdee759578c7f7", "debug-0be0dc7b6d86c8152dfd6a371248ea205ab3c478"]
     }
   },
   "quay.io": {
