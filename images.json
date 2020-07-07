@@ -6,7 +6,8 @@
       "postgres": ["10"],
       "busybox": ["1.31.1"],
       "golang": ["1.13-alpine", "1.14.4"],
-      "sentry": ["9.1.2"]
+      "sentry": ["9.1.2"],
+      "python": ["3.6"]
     },
     "prom": {
       "alertmanager": ["v0.20.0"],
