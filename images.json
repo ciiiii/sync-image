@@ -9,6 +9,9 @@
       "sentry": ["9.1.2"],
       "python": ["3.6"]
     },
+    "erichough": {
+      "nfs-server": ["2.2.1"]
+    },
     "prom": {
       "alertmanager": ["v0.20.0"],
       "prometheus": ["v2.18.1"]
