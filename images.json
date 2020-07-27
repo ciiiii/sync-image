@@ -9,6 +9,9 @@
       "sentry": ["9.1.2"],
       "python": ["3.6"]
     },
+    "pantsel": {
+      "konga": ["0.14.7"]
+    },
     "erichough": {
       "nfs-server": ["2.2.1"]
     },
