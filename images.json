@@ -33,7 +33,8 @@
     },
     "bitnami": {
       "kube-state-metrics": ["1.9.6-debian-10-r0"],
-      "metrics-server": ["0.3.7-debian-10-r5"]
+      "metrics-server": ["0.3.7-debian-10-r5"],
+      "kafka": ["2.6.0"]
     },
     "calico": {
       "node": ["v3.13.2"],
