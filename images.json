@@ -71,7 +71,7 @@
         "cert-manager-webhook": ["v0.15.0"]
       },
       "coreos": {
-        "etcd": ["v3.3.12"],
+        "etcd": ["v3.3.12", "v3.4.10"],
         "kube-state-metrics": ["v1.9.5"],
         "kube-rbac-proxy": ["v0.4.1"],
         "k8s-prometheus-adapter-amd64": ["v0.7.0"],
