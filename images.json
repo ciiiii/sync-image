@@ -46,7 +46,8 @@
       "coredns": ["1.6.9"]
     },
     "rancher": {
-      "local-path-provisioner": ["v0.0.2"]
+      "local-path-provisioner": ["v0.0.2"],
+      "rancher": ["v2.4.5"]
     },
     "grafana": {
       "grafana": ["6.6.0", "6.7.3"]
