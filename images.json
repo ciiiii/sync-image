@@ -9,6 +9,9 @@
       "sentry": ["9.1.2"],
       "python": ["3.6"]
     },
+    "timescale": {
+      "timescaledb": ["latest-pg11"]
+    },
     "pantsel": {
       "konga": ["0.14.7"]
     },
