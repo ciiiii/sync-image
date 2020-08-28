@@ -84,6 +84,9 @@
         "configmap-reload": ["v0.0.1"],
         "prometheus-config-reloader": ["v0.38.1"]
       },
+      "kuar-demo": {
+        "ngrok": ["latest"]
+      },
       "external_storage": {
         "local-volume-provisioner": ["v2.3.2"],
         "nfs-client-provisioner": ["v3.1.0-k8s1.11"]
