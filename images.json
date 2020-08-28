@@ -118,6 +118,9 @@
       "kubernetes-dashboard-amd64": ["v1.10.1"],
       "defaultbackend-amd64": ["1.5"],
       "hyperkube": ["v1.12.1"]
+    },
+    "kuar-demo": {
+      "ngrok": ["latest"]
     }
   }
 }
