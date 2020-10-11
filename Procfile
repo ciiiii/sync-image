@@ -1,1 +1,1 @@
-web: sync-image/cmd
+web: cmd
