@@ -10,6 +10,9 @@
       "python": ["3.6"],
       "node": ["14-alpine"]
     },
+    "philplckthun": {
+      "strongswan": ["latest"]
+    },
     "timescale": {
       "timescaledb": ["latest-pg11"]
     },
