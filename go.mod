@@ -5,7 +5,7 @@ go 1.14
 require (
 	docker.io/go-docker v1.0.0
 	github.com/Microsoft/go-winio v0.4.14 // indirect
-	github.com/caarlos0/env/v6 v6.3.0
+	github.com/caarlos0/env/v6 v6.6.0
 	github.com/docker/distribution v2.7.1+incompatible // indirect
 	github.com/docker/docker/internal/testutil v0.0.0-00010101000000-000000000000 // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
