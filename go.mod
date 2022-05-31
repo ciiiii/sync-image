@@ -5,7 +5,7 @@ go 1.14
 require (
 	docker.io/go-docker v1.0.0
 	github.com/Microsoft/go-winio v0.4.14 // indirect
-	github.com/caarlos0/env/v6 v6.3.0
+	github.com/caarlos0/env/v6 v6.9.3
 	github.com/docker/distribution v2.7.1+incompatible // indirect
 	github.com/docker/docker/internal/testutil v0.0.0-00010101000000-000000000000 // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
@@ -17,6 +17,7 @@ require (
 	github.com/opencontainers/image-spec v1.0.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/spf13/cobra v1.0.0
+	github.com/stretchr/testify v1.5.1 // indirect
 	golang.org/x/net v0.0.0-20200421231249-e086a090c8fd // indirect
 )
 
